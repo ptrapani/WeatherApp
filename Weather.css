@@ -1,8 +1,18 @@
-label, input, select {
-	display:block;
-}
 
+/*Main page*/
 #current-weather-container {display: none;}
 #forecast-container {display: none;}
 .content-container {width:75%; margin: 0 auto;}
 h1 {margin-bottom: 2%;}
+
+
+/*Search form*/
+label, input, select {
+	display:block;
+}
+
+
+/*Loading Bar */
+.progress-bar.animate {
+   width: 100%;
+}
