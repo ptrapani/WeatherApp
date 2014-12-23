@@ -4,9 +4,7 @@ $(document).ready(function () {
 
     $("#search-button").on("click", function () {
 
-        //value is hard coded for now
-
-/*
+        //city/state value is hard coded for now
         $.ajax({
             type: 'GET',
             url: 'http://api.wunderground.com/api/6110d723ddc2a0c0/forecast/geolookup/conditions/q/Ga/atlanta.json',
@@ -15,28 +13,32 @@ $(document).ready(function () {
             },
             dataType: 'json',
             success: function (data) {
-                alert("success!");
-                var weather = data;
                 console.log(data);
 
-                //this is where the JSON parsing will happen
-                //testing on static JSON file to avoid unneeded requests	
-
+                setCurrentWeather(data.current_observation);
+                setForcast(data.forecast.simpleforecast.forecastday)	             	           	           	                
             }
         });
-*/
 
-        $.getJSON("atlanta.json", function (data) {
-            //parse current weather and set values in the html
 
-            console.log(data);
-            
-            $("#current-weather").html(data);
+        function setCurrentWeather(current){
 
-            //parse forcast and set values in the html for each day
-            $("#forecast").html(data);
+        	//parse out current weather properties
+        	//Eventually turn this into a mustache template
+        	var feelsLike = current.feelslike_f;
+        	console.log(feelsLike);
+        	//$("#current-weather").html(weather);
+        }
 
-        });
+        function setForcast(forecast){
+
+        	//parse forcast and set values in the html for each day
+        	//Eventually turn this into a mustache template
+        	console.log("forecast");
+        	console.log(forecast);
+        	//$("#forecast").html(weather);	
+        }
+
 
     });
 
