@@ -27,6 +27,8 @@ $(document).ready(function () {
 
         	//parse out current weather properties
         	//Eventually turn this into a mustache template
+
+        	/*
         	var feelsLike = current.feelslike_string,
         	location = current.display_location.full,
         	weather = current.weather,
@@ -34,6 +36,11 @@ $(document).ready(function () {
         	temperature = current.temperature_string,
         	precipitation = current.precip_today_string,
         	wind = current.wind_string;
+        	*/
+
+        	var template = $('#current-weather-template').html();
+		    var info = Mustache.to_html(template, current);
+		    $('#current-weather').html(info);
 
         	console.log(location);
         	console.log(wind);
