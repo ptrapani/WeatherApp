@@ -2,7 +2,10 @@ $(document).ready(function () {
 
     //$("#weather button").on("click", function () {
 
-    $("form").on("submit", function () {
+    $("form").on("submit", function (e) {
+
+    	//prevents page refresh after form submission 
+    	e.preventDefault();
 
     	var location = $("#location").val().split(',');
     	var url = "http://api.wunderground.com/api/6110d723ddc2a0c0/forecast/geolookup/conditions/q/" + location[1].trim()  + "/" + location[0].trim() + ".json";
