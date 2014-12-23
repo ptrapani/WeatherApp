@@ -18,43 +18,28 @@ $(document).ready(function () {
                 setCurrentWeather(data.current_observation);
 
                 //To-do - Implement 5 day forcast	
-                //setForcast(data.forecast.simpleforecast.forecastday)	             	           	           	                
+                //setForcast(data.forecast.txt_forecast.forecastday)	             	           	           	                
             }
         });
 
 
         function setCurrentWeather(current){
 
-        	//parse out current weather properties
-        	//Eventually turn this into a mustache template
-
-        	/*
-        	var feelsLike = current.feelslike_string,
-        	location = current.display_location.full,
-        	weather = current.weather,
-        	time = current.observation_time,
-        	temperature = current.temperature_string,
-        	precipitation = current.precip_today_string,
-        	wind = current.wind_string;
-        	*/
-
+        	//parse out current weather properties 
         	var template = $('#current-weather-template').html();
 		    var info = Mustache.to_html(template, current);
-		    $('#current-weather').html(info);
-
-        	console.log(location);
-        	console.log(wind);
-        	console.log(time);
-        	//$("#current-weather").html(weather);
+		    $('#current-weather-content').html(info);
         }
 
         function setForcast(forecast){
 
-        	//parse forcast and set values in the html for each day
-        	//Eventually turn this into a mustache template
-        	console.log("forecast");
         	console.log(forecast);
-        	//$("#forecast").html(weather);	
+
+        	//parse forcast and set values in the html for each day
+        	var template = $('#forecast-template').html();
+        	forecast = "{days:" + forecast + "}";
+		    var info = Mustache.to_html(template, forecast);
+		    $('#forecast-content').html(info);
         }
 
 

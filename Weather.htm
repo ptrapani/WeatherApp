@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="weather.css" rel="stylesheets">
+    <link href="weather.css" rel="stylesheet">
   </head>
   <body>
 
@@ -32,12 +32,17 @@
 </form>
 
       <div id="current-weather">
+          <h3>Current Weather</h3>
 
+          <div id="current-weather-content">
+          </div>  
       </div>  
 
-
       <div id="forecast">
+          <h3>5 day forecast</h3>
 
+          <div id="forcast-content">
+          </div> 
       </div>
 
     </div>
@@ -52,7 +57,19 @@
          <div>{{temperature_string}}</div> 
          <div>{{precip_today_string}}</div> 
          <div>{{wind_string}}</div> 
-    </script>    
+    </script> 
+
+
+    <script id="forecast-template" type="text/template">  
+
+        <div>{{title}}</div>
+
+        {{#days}}  
+           <div>{{title}}</div> 
+           <div>{{fcttext}}</div>
+           <div>* {{fcttext_metric}}</div>
+        {{/days}}    
+    </script>     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="jquery-1.11.2.js"></script>
