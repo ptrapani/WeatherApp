@@ -16,7 +16,9 @@ $(document).ready(function () {
                 console.log(data);
 
                 setCurrentWeather(data.current_observation);
-                setForcast(data.forecast.simpleforecast.forecastday)	             	           	           	                
+
+                //To-do - Implement 5 day forcast	
+                //setForcast(data.forecast.simpleforecast.forecastday)	             	           	           	                
             }
         });
 
@@ -25,8 +27,17 @@ $(document).ready(function () {
 
         	//parse out current weather properties
         	//Eventually turn this into a mustache template
-        	var feelsLike = current.feelslike_f;
-        	console.log(feelsLike);
+        	var feelsLike = current.feelslike_string,
+        	location = current.display_location.full,
+        	weather = current.weather,
+        	time = current.observation_time,
+        	temperature = current.temperature_string,
+        	precipitation = current.precip_today_string,
+        	wind = current.wind_string;
+
+        	console.log(location);
+        	console.log(wind);
+        	console.log(time);
         	//$("#current-weather").html(weather);
         }
 
