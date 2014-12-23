@@ -4,14 +4,13 @@ $(document).ready(function () {
 
     $("form").on("submit", function () {
 
-    	var location = $("#location").val();
-    	alert(location);
+    	var location = $("#location").val().split(',');
+    	var url = "http://api.wunderground.com/api/6110d723ddc2a0c0/forecast/geolookup/conditions/q/" + location[1].trim()  + "/" + location[0].trim() + ".json";
+    	console.log(url);
 
-/*
-        //city/state value is hard coded for now
         $.ajax({
             type: 'GET',
-            url: 'http://api.wunderground.com/api/6110d723ddc2a0c0/forecast/geolookup/conditions/q/Ga/atlanta.json',
+            url: url,
             data: {
                 get_param: 'value'
             },
@@ -43,6 +42,6 @@ $(document).ready(function () {
 		    $("#forecast-container").show();
 		    $('#forecast-content').html(info);
         }
-*/
+
     });
 });
