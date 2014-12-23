@@ -2,7 +2,10 @@ $(document).ready(function () {
 
     //$("#weather button").on("click", function () {
 
-    $("#search-button").on("click", function () {
+    $("form").on("submit", function () {
+
+    	var location = $("#location").val();
+    	alert(location);
 
 /*
         //city/state value is hard coded for now
