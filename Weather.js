@@ -4,6 +4,7 @@ $(document).ready(function () {
 
     $("#search-button").on("click", function () {
 
+/*
         //city/state value is hard coded for now
         $.ajax({
             type: 'GET',
@@ -25,6 +26,7 @@ $(document).ready(function () {
         function setCurrentWeather(current){
 
         	//parse out current weather properties 
+        	//show the container div
         	var template = $('#current-weather-template').html();
 		    var info = Mustache.to_html(template, current);
 		    $('#current-weather-content').html(info);
@@ -33,10 +35,11 @@ $(document).ready(function () {
         function setForcast(forecast){
 
         	//parse forcast and set values in the html for each day
+        	//show the container div
         	var template = $('#forecast-template').html();
 		    var info = Mustache.to_html(template, forecast);
 		    $('#forecast-content').html(info);
         }
-
+*/
     });
 });

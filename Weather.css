@@ -1,3 +1,6 @@
 label, input, select {
 	display:block;
 }
+
+#current-weather-container {display: none;}
+#forecast-container {display: none;}
