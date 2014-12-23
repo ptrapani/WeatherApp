@@ -1,0 +1,858 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"GA",
+		"city":"Atlanta",
+		"tz_short":"EST",
+		"tz_long":"America/New_York",
+		"lat":"33.85500717",
+		"lon":"-84.39598846",
+		"zip":"30301",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:30301.1.99999",
+		"requesturl":"US/GA/Atlanta.html",
+		"wuiurl":"http://www.wunderground.com/US/GA/Atlanta.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Atlanta Dekalb", "state":"GA", "country":"US", "icao":"KPDK", "lat":"33.87836075", "lon":"-84.29801941" }
+		,{ "city":"Marietta", "state":"GA", "country":"US", "icao":"KMGE", "lat":"33.91538239", "lon":"-84.51631927" }
+		,{ "city":"Atlanta Fulton", "state":"GA", "country":"US", "icao":"KFTY", "lat":"33.77914047", "lon":"-84.52136230" }
+		,{ "city":"Atlanta", "state":"GA", "country":"US", "icao":"KATL", "lat":"33.63010025", "lon":"-84.44180298" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"North Buckhead",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN119",
+		"lat":33.850765,
+		"lon":-84.373550,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Buckhead Forest",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN87",
+		"lat":33.844864,
+		"lon":-84.376205,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Arden Oak Ct NW",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN73",
+		"lat":33.834549,
+		"lon":-84.406380,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Buckhead",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN50",
+		"lat":33.866734,
+		"lon":-84.372841,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Castlewood",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN118",
+		"lat":33.831120,
+		"lon":-84.408707,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Buckhead: The Wakefield",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN15",
+		"lat":33.828011,
+		"lon":-84.388420,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Peachtree Park",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN120",
+		"lat":33.838509,
+		"lon":-84.362671,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Chastain Park",
+		"city":"Sandy Springs",
+		"state":"GA",
+		"country":"US",
+		"id":"KGASANDY4",
+		"lat":33.892120,
+		"lon":-84.384476,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Peachtree Hills",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN116",
+		"lat":33.817566,
+		"lon":-84.384659,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Buckhead/Wildwood",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN91",
+		"lat":33.818474,
+		"lon":-84.419807,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Mount Vernon Estates",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN107",
+		"lat":33.897945,
+		"lon":-84.410194,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Brookhaven",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN99",
+		"lat":33.843151,
+		"lon":-84.339142,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Sandy Springs",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN70",
+		"lat":33.910717,
+		"lon":-84.397041,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Midtown/Buckhead",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN16",
+		"lat":33.810043,
+		"lon":-84.348610,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Vinings Mountain",
+		"city":"Vinings",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAVININ2",
+		"lat":33.870556,
+		"lon":-84.466774,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"North Brookhaven",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN113",
+		"lat":33.900551,
+		"lon":-84.343491,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"TWC Headquarters",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN81",
+		"lat":33.893581,
+		"lon":-84.459457,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Toco-Merry Hills/Lavista",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN94",
+		"lat":33.820412,
+		"lon":-84.328461,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Overhill",
+		"city":"Sandy Springs",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAWOODS14",
+		"lat":33.920361,
+		"lon":-84.414490,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Wildwood, NW Atlanta",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN105",
+		"lat":33.903683,
+		"lon":-84.456482,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Ashford Park",
+		"city":"Chamblee",
+		"state":"GA",
+		"country":"US",
+		"id":"KGACHAMB2",
+		"lat":33.877724,
+		"lon":-84.311638,
+		"distance_km":8,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Georgia Tech (Midtown)",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN49",
+		"lat":33.779148,
+		"lon":-84.395859,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Virginia Highland",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN106",
+		"lat":33.784058,
+		"lon":-84.363556,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Whittier Mill Village",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN76",
+		"lat":33.811535,
+		"lon":-84.482826,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Lakeside",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN71",
+		"lat":33.847446,
+		"lon":-84.294281,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Tain Weather, Creatwood Subdivision",
+		"city":"Smyrna",
+		"state":"GA",
+		"country":"US",
+		"id":"KGASMYRN2",
+		"lat":33.869171,
+		"lon":-84.503067,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Atlanta Road Southeast",
+		"city":"Smyrna",
+		"state":"GA",
+		"country":"US",
+		"id":"KGASMYRN6",
+		"lat":33.874477,
+		"lon":-84.502213,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Emory/Druid Hills",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN80",
+		"lat":33.788582,
+		"lon":-84.320755,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"East Side",
+		"city":"Atlanta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAATLAN121",
+		"lat":33.773144,
+		"lon":-84.342850,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"East Clifton Road Northeast",
+		"city":"Decatur",
+		"state":"GA",
+		"country":"US",
+		"id":"KGADECAT19",
+		"lat":33.781532,
+		"lon":-84.322075,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Chattahoochee Plantation",
+		"city":"Marietta",
+		"state":"GA",
+		"country":"US",
+		"id":"KGAMARIE20",
+		"lat":33.951389,
+		"lon":-84.421669,
+		"distance_km":10,
+		"distance_mi":6
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Atlanta, GA",
+		"city":"Atlanta",
+		"state":"GA",
+		"state_name":"Georgia",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"30301",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"33.85500717",
+		"longitude":"-84.39598846",
+		"elevation":"267.00000000"
+		},
+		"observation_location": {
+		"full":"Buckhead Forest, Atlanta, Georgia",
+		"city":"Buckhead Forest, Atlanta",
+		"state":"Georgia",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"33.844864",
+		"longitude":"-84.376205",
+		"elevation":"1010 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KGAATLAN87",
+		"observation_time":"Last Updated on December 22, 7:15 PM EST",
+		"observation_time_rfc822":"Mon, 22 Dec 2014 19:15:34 -0500",
+		"observation_epoch":"1419293734",
+		"local_time_rfc822":"Mon, 22 Dec 2014 19:15:49 -0500",
+		"local_epoch":"1419293749",
+		"local_tz_short":"EST",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0500",
+		"weather":"Rain",
+		"temperature_string":"43.3 F (6.3 C)",
+		"temp_f":43.3,
+		"temp_c":6.3,
+		"relative_humidity":"96%",
+		"wind_string":"From the ESE at 1.0 MPH Gusting to 3.0 MPH",
+		"wind_dir":"ESE",
+		"wind_degrees":119,
+		"wind_mph":1.0,
+		"wind_gust_mph":"3.0",
+		"wind_kph":1.6,
+		"wind_gust_kph":"4.8",
+		"pressure_mb":"1014",
+		"pressure_in":"29.96",
+		"pressure_trend":"+",
+		"dewpoint_string":"42 F (6 C)",
+		"dewpoint_f":42,
+		"dewpoint_c":6,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"43 F (6 C)",
+		"windchill_f":"43",
+		"windchill_c":"6",
+		"feelslike_string":"43 F (6 C)",
+		"feelslike_f":"43",
+		"feelslike_c":"6",
+		"visibility_mi":"6.0",
+		"visibility_km":"9.7",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.14 in ( 4 mm)",
+		"precip_1hr_in":"0.14",
+		"precip_1hr_metric":" 4",
+		"precip_today_string":"0.27 in (7 mm)",
+		"precip_today_in":"0.27",
+		"precip_today_metric":"7",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"forecast_url":"http://www.wunderground.com/US/GA/Atlanta.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KGAATLAN87",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=33.844864,-84.376205",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"5:40 PM EST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Mainly cloudy and rainy. Lows overnight in the low 40s.",
+		"fcttext_metric":"Mainly cloudy and rainy. Low 6C.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Periods of heavy rain, becoming lighter overnight. Thunder possible. Low 42F. Winds E at 10 to 15 mph. Chance of rain 100%.",
+		"fcttext_metric":"Occasional rain. Thunder possible. Low 6C. Winds E at 10 to 15 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Rain. High 53F. Winds E at 10 to 15 mph. Chance of rain 100%. Rainfall near a half an inch.",
+		"fcttext_metric":"Periods of rain. High near 10C. Winds E at 10 to 15 km/h. Chance of rain 100%. Rainfall around 12mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Rain likely. Thunder possible. Low 51F. Winds ESE at 10 to 15 mph. Chance of rain 100%. 1 to 2 inches of rain expected.",
+		"fcttext_metric":"Periods of rain. Rain may be heavy late. Thunder possible. Low 9C. Winds ESE at 15 to 25 km/h. Chance of rain 100%. 25 to 50mm of rain expected.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Wednesday",
+		"fcttext":"Rain with a rumble or two of thunder in the morning. Then cloudy skies late. High around 65F. Winds SSW at 10 to 15 mph. Chance of rain 90%. Rainfall near a quarter of an inch.",
+		"fcttext_metric":"Rain with a rumble or two of thunder in the morning. Then cloudy skies late. High 18C. Winds SSW at 15 to 25 km/h. Chance of rain 90%. Rainfall around 6mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy skies early will become partly cloudy later at night. Low 39F. Winds W at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy skies early will become partly cloudy later at night. Low 4C. Winds W at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Partly cloudy. High near 50F. Winds WNW at 10 to 15 mph.",
+		"fcttext_metric":"Sunshine and clouds mixed. High around 10C. Winds WNW at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Thursday Night",
+		"fcttext":"Clear skies. Low 32F. Winds light and variable.",
+		"fcttext_metric":"Clear. Low near 0C. Winds light and variable.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1419292800",
+	"pretty":"7:00 PM EST on December 22, 2014",
+	"day":22,
+	"month":12,
+	"year":2014,
+	"yday":355,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"low": {
+		"fahrenheit":"42",
+		"celsius":"6"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 0.32,
+		"mm": 8
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.32,
+		"mm": 8
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 18,
+		"kph": 29,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "NE",
+		"degrees": 48
+		},
+		"avehumidity": 96,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1419379200",
+	"pretty":"7:00 PM EST on December 23, 2014",
+	"day":23,
+	"month":12,
+	"year":2014,
+	"yday":356,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"51",
+		"celsius":"11"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 2.08,
+		"mm": 53
+		},
+		"qpf_day": {
+		"in": 0.62,
+		"mm": 16
+		},
+		"qpf_night": {
+		"in": 1.46,
+		"mm": 37
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "E",
+		"degrees": 93
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "E",
+		"degrees": 93
+		},
+		"avehumidity": 89,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1419465600",
+	"pretty":"7:00 PM EST on December 24, 2014",
+	"day":24,
+	"month":12,
+	"year":2014,
+	"yday":357,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"65",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 0.23,
+		"mm": 6
+		},
+		"qpf_day": {
+		"in": 0.23,
+		"mm": 6
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SSW",
+		"degrees": 212
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "SSW",
+		"degrees": 212
+		},
+		"avehumidity": 83,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1419552000",
+	"pretty":"7:00 PM EST on December 25, 2014",
+	"day":25,
+	"month":12,
+	"year":2014,
+	"yday":358,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/New_York"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"50",
+		"celsius":"10"
+		},
+		"low": {
+		"fahrenheit":"32",
+		"celsius":"0"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WNW",
+		"degrees": 289
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "WNW",
+		"degrees": 289
+		},
+		"avehumidity": 62,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
