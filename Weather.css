@@ -4,3 +4,5 @@ label, input, select {
 
 #current-weather-container {display: none;}
 #forecast-container {display: none;}
+.content-container {width:75%; margin: 0 auto;}
+h1 {margin-bottom: 2%;}
