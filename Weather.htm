@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Paul's Weather App</title>
 
-    <!-- Bootstrap -->
+    <!-- CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="weather.css" rel="stylesheet">
   </head>
@@ -41,7 +41,7 @@
       <div id="forecast">
           <h3>5 day forecast</h3>
 
-          <div id="forcast-content">
+          <div id="forecast-content">
           </div> 
       </div>
 
@@ -62,18 +62,20 @@
 
     <script id="forecast-template" type="text/template">  
 
-        <div>{{title}}</div>
+        {{#forecastday}} 
 
-        {{#days}}  
+        <p class="daily-forecast">   
            <div>{{title}}</div> 
            <div>{{fcttext}}</div>
-           <div>* {{fcttext_metric}}</div>
-        {{/days}}    
+           <div>{{pop}} %</div>
+           <img src="{{icon_url}}">
+        </p>   
+
+        {{/forecastday}}    
     </script>     
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
     <script src="jquery-1.11.2.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap.min.js"></script>
     <script src="mustache.min.js"></script>
     <script src="weather.js"></script>

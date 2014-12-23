@@ -15,10 +15,9 @@ $(document).ready(function () {
             success: function (data) {
                 console.log(data);
 
+                //Set all JSON data in their respective mustache template	
                 setCurrentWeather(data.current_observation);
-
-                //To-do - Implement 5 day forcast	
-                //setForcast(data.forecast.txt_forecast.forecastday)	             	           	           	                
+                setForcast(data.forecast.txt_forecast)	             	           	           	                
             }
         });
 
@@ -33,16 +32,11 @@ $(document).ready(function () {
 
         function setForcast(forecast){
 
-        	console.log(forecast);
-
         	//parse forcast and set values in the html for each day
         	var template = $('#forecast-template').html();
-        	forecast = "{days:" + forecast + "}";
 		    var info = Mustache.to_html(template, forecast);
 		    $('#forecast-content').html(info);
         }
 
-
     });
-
 });
