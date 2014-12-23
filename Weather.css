@@ -16,3 +16,7 @@ label, input, select {
 .progress-bar.animate {
    width: 100%;
 }
+
+.modal-dialog{
+	margin-top: 20%;
+}
